@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HealthSafetyApp.Views.Topics.Topic11_homepage">
+  <ScrollView>
+    <Grid RowSpacing="0" x:Name="maingrid" Margin="10,10,10,0">
+      <!--<Grid.RowDefinitions>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="auto"/>
+    </Grid.RowDefinitions>-->
+      <!--<StackLayout>
+        <Button Text="Topic 1" Clicked="OnClick_Topic1"/>
+        <Button Text="Topic 2" />
+        <Button Text="Topic 3" />
+        <Button Text="Topic 4" />
+        <Button Text="Topic 5" />
+        <Button Text="Topic 6" />
+        <Button Text="Topic 7" />
+        <Button Text="Topic 8" />
+        <Button Text="Topic 9" />
+        <Button Text="Topic 10" />
+        <Button Text="Topic 11" />
+      </StackLayout>-->
+      <ListView Grid.Row="0" ItemsSource="{Binding topic}" ItemTapped="OnTap_Nav_List" VerticalOptions="FillAndExpand" x:Name="Nav_List"   HasUnevenRows="True">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <Grid RowSpacing="0" HeightRequest="60" BackgroundColor="White" ColumnSpacing="0" >
+
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width=".16*"/>
+                  <ColumnDefinition Width=".5*"/>
+                  <ColumnDefinition Width=".2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                                    <Image Source="pdf_icon.png"></Image>
+                </Grid>
+                <Grid Grid.Column="1" Margin="10,0,0,0">
+                  <Label TextColor="Black" Text="{Binding Name}" FontSize="Small"  HorizontalOptions="Start" VerticalOptions="CenterAndExpand"/>
+                  <!--<Label TextColor="White" Text="{Binding details}" FontSize="16" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>-->
+                </Grid>
+                <Grid Grid.Column="2"  >
+                  <Frame>
+                    <Image Source="topics_name_back_icon.png"  ></Image>
+                  </Frame>
+                </Grid>
+              </Grid>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+
+      </ListView>
+    </Grid>
+  </ScrollView>
+</ContentPage>
