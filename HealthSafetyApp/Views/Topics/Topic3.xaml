@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:chkbx="clr-namespace:HealthSafetyApp.Controls"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chkbx="clr-namespace:HealthSafetyApp.Controls"
              x:Class="HealthSafetyApp.Views.Topics.Topic3"
              Title="Risk Assessment:Display Screen Equipment">
     <ScrollView x:Name="myscrollview" Orientation="Vertical" VerticalOptions="StartAndExpand">
@@ -38,13 +39,15 @@
 
 
                     <StackLayout Orientation="Horizontal" IsVisible="False">
-                        <chkbx:CustomCheckbox x:Name="chkbx1" Checked="chkbx1_CheckedChanged" Color="Green"/>
+                        <!--<chkbx:CustomCheckbox x:Name="chkbx1" Checked="chkbx1_CheckedChanged" Color="Green"/>-->
+                        <CheckBox x:Name="chkbx1" CheckedChanged="chkbx1_CheckedChanged" Color="Green" Visual="Material"/>
                         <Entry x:Name="txt_Check1_text" Placeholder="Enter text" PlaceholderColor="#939393"  HorizontalOptions="FillAndExpand"/>
                     </StackLayout>
 
 
                     <StackLayout Orientation="Horizontal" IsVisible="False">
-                        <chkbx:CustomCheckbox x:Name="chkbx2" Checked="chkbx2_CheckedChanged" Color="Green"/>
+                        <!--<chkbx:CustomCheckbox x:Name="chkbx2" Checked="chkbx2_CheckedChanged" Color="Green"/>-->
+                        <CheckBox x:Name="chkbx2" CheckedChanged="chkbx2_CheckedChanged" Color="Green" Visual="Material"/>
                         <Entry x:Name="txt_Check2_text" Placeholder="Enter text" PlaceholderColor="#939393"  HorizontalOptions="FillAndExpand"/>
                     </StackLayout>
 
@@ -225,8 +228,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0" Text="Can you easily adjust the brightness and contrast between the characters on screen?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox  x:Name="Y11" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox BackgroundColor="AntiqueWhite" x:Name=" N11" Grid.Column="2" Color="Red" IsChecked="False"  HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox  x:Name="Y11" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y11" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox BackgroundColor="AntiqueWhite" x:Name=" N11" Grid.Column="2" Color="Red" IsChecked="False"  HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox  x:Name="N11" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="2">
@@ -238,8 +243,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Can the screen be tilted and swivelled?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y21" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N21"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y21" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y21" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N21"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N21" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="3">
@@ -251,8 +258,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Is the screen image stable and free of flicker and other persistent instabilities?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox  x:Name="Y31" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N31" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox  x:Name="Y31" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y31" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N31" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N31" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="4">
@@ -264,8 +273,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Is the screen at a height that is comfortable for you?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y41"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N41" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y41"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y41" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N41" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N41" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
                     </Grid>
 
@@ -302,8 +313,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"   Text="Can you adjust the keyboard to a comfortable angle?" HorizontalOptions="Start" />
-                            <chkbx:CustomCheckbox x:Name="Y12"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox  x:Name="N12" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y12"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y12" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox  x:Name="N12" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N12" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="2">
@@ -315,8 +328,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Can you easily see the symbols on the keys?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y22" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N22" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y22" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y22" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N22" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N22" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="3">
@@ -328,8 +343,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Is there enough space to rest your hands in front of the keyboard?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y32" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N32"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y32" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y32" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N32"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N32" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                     </Grid>
@@ -368,8 +385,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"   Text="Can you adjust the height of the seat?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y13"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N13" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y13"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y13" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N13" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N13" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="2">
@@ -381,8 +400,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Can you adjust the height and angle of the backrest?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y23" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N23" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y23" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y23" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N23" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N23" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="3">
@@ -394,8 +415,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Is the chair comfortable?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y33"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N33" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y33"  Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y33" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N33" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N33" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="4">
@@ -407,8 +430,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Is the chair in a good state of repair?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y43" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N43" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y43" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y43" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N43" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N43" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
                     </Grid>
                     
@@ -444,8 +469,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"   Text="Is the desk surface large enough to allow you to place all your equipment where you want it?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y14" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N14" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y14" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y14" Grid.Column="1" HorizontalOptions="Center" Color="Green" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N14" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N14" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="2">
@@ -457,8 +484,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Is the height of the desk suitable?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y24" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N24" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y24" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y24" Grid.Column="1" HorizontalOptions="Center" Color="Green" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N24" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N24" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                        
@@ -495,8 +524,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"   Text="If you cannot place your feet flat on the floor whilst keying, has a footrest been supplied?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y15" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N15"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y15" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y15" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N15"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N15" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                     </Grid>
@@ -532,8 +563,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"   Text="If it would be of benefit to use a document holder, has one been supplied?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y16" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N16" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y16" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y16" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N16" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N16" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="2">
@@ -545,8 +578,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="If you have document holder, is it adjustable to suit your needs?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y26" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N26" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y26" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y26" Grid.Column="1" HorizontalOptions="Center" Color="Green" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N26" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N26" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
 
@@ -590,8 +625,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"   Text="Have you been informed about the risks associated with workstation equipment and how to reduce the risks?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y17" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N17" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y17" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y17" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N17" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N17" Grid.Column="2" IsChecked="False" Color="Red" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="2">
@@ -603,8 +640,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Have you been informed about the arrangements to provide breaks and activity changes?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y27" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N27" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y27" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y27" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N27" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N27" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="3">
@@ -616,8 +655,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Have you been informed about the arrangements for the provision of eye and eyesight tests?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y37" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N37" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y37" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y37" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N37" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N37" Grid.Column="2" Color="Red" HorizontalOptions="Center" IsChecked="False" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
 
                         <Grid Grid.Row="4">
@@ -629,8 +670,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Do you know the procedures to follow if you have a problem relating to workstation equipment?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y47" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N47" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y47" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y47" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N47" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N47" Grid.Column="2" Color="Red" HorizontalOptions="Center" IsChecked="False" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
              
 
@@ -643,9 +686,11 @@
                         </Grid.ColumnDefinitions>
 
                         <Label  Grid.Column="0"  Text="Have you been informed in the correct adjustment and positioning of workstation equipment?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y57" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N57" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
-                    </Grid>
+                            <!--<chkbx:CustomCheckbox x:Name="Y57" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y57" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N57" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N57" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                        </Grid>
 
                         <Grid Grid.Row="6">
 
@@ -656,8 +701,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0" Text="Have you been informed about the importance of good posture?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y67" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N67" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y67" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y67" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N67" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N67" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
                         
                         <Grid Grid.Row="7">
@@ -669,8 +716,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Do you know how to adjust screen brightness and contrast?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y77" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N77" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y77" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y77" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N77" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N77" Grid.Column="2" Color="Red" HorizontalOptions="Center" IsChecked="False" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
                         
                         <Grid Grid.Row="8">
@@ -682,8 +731,10 @@
                             </Grid.ColumnDefinitions>
 
                             <Label  Grid.Column="0"  Text="Do you know how to recognise visual or postural fatigue and the action to take?" HorizontalOptions="Start"/>
-                            <chkbx:CustomCheckbox x:Name="Y87" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>
-                            <chkbx:CustomCheckbox x:Name="N87"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>
+                            <!--<chkbx:CustomCheckbox x:Name="Y87" Grid.Column="1" Color="Green" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="Y87" Grid.Column="1" Color="Green" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
+                            <!--<chkbx:CustomCheckbox x:Name="N87"  Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" Checked="CC_Checked"/>-->
+                            <CheckBox x:Name="N87" Grid.Column="2" Color="Red" IsChecked="False" HorizontalOptions="Center" CheckedChanged="CC_Checked" Visual="Material"/>
                         </Grid>
                         
                     </Grid>

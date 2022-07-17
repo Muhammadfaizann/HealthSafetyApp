@@ -543,83 +543,83 @@ namespace HealthSafetyApp.Views.Topics
 
         private void CC_Checked(object sender, EventArgs e)
         {
-            Controls.CustomCheckbox a = (Controls.CustomCheckbox)sender;
+            var a = (CheckBox)sender;
 
-            Controls.CustomCheckbox b;
-            b= (Controls.CustomCheckbox)Y11;
-            if (a.Equals(N11)) {b =(Controls.CustomCheckbox) Y11;}
-            if (a.Equals(Y11)) { b = (Controls.CustomCheckbox)N11; }
+            
+          var  b= (CheckBox)Y11;
+            if (a.Equals(N11)) {b =(CheckBox) Y11;}
+            if (a.Equals(Y11)) { b = (CheckBox)N11; }
 
-            if (a.Equals(N21)) { b = (Controls.CustomCheckbox)Y21; }
-            if (a.Equals(Y21)) { b = (Controls.CustomCheckbox)N21; }
+         if (a.Equals(N21)) { b = (CheckBox)Y21; }
+         if (a.Equals(Y21)) { b = (CheckBox)N21; }
 
-            if (a.Equals(N31)) { b = (Controls.CustomCheckbox)Y31; }
-            if (a.Equals(Y31)) { b = (Controls.CustomCheckbox)N31; }
+         if (a.Equals(N31)) { b = (CheckBox)Y31; }
+         if (a.Equals(Y31)) { b = (CheckBox)N31; }
 
-            if (a.Equals(N41)) { b = (Controls.CustomCheckbox)Y41; }
-            if (a.Equals(Y41)) { b = (Controls.CustomCheckbox)N41; }
+         if (a.Equals(N41)) { b = (CheckBox)Y41; }
+         if (a.Equals(Y41)) { b = (CheckBox)N41; }
+                                  
+         if (a.Equals(N12)) { b = (CheckBox)Y12; }
+         if (a.Equals(Y12)) { b = (CheckBox)N12; }
+                                  
+         if (a.Equals(N22)) { b = (CheckBox)Y22; }
+         if (a.Equals(Y22)) { b = (CheckBox)N22; }
+                                   
+         if (a.Equals(N32)) { b = (CheckBox)Y32; }
+         if (a.Equals(Y32)) { b = (CheckBox)N32; }
+                                   
+         if (a.Equals(N13)) { b = (CheckBox)Y13; }
+         if (a.Equals(Y13)) { b = (CheckBox)N13; }
+                                   
+         if (a.Equals(N23)) { b = (CheckBox)Y23; }
+         if (a.Equals(Y23)) { b = (CheckBox)N23; }
+                                   
+         if (a.Equals(N33)) { b = (CheckBox)Y33; }
+         if (a.Equals(Y33)) { b = (CheckBox)N33; }
+                                   
+         if (a.Equals(N43)) { b = (CheckBox)Y43; }
+         if (a.Equals(Y43)) { b = (CheckBox)N43; }
+                                   
+         if (a.Equals(N14)) { b = (CheckBox)Y14; }
+         if (a.Equals(Y14)) { b = (CheckBox)N14; }
+                                   
+         if (a.Equals(N24)) { b = (CheckBox)Y24; }
+         if (a.Equals(Y24)) { b = (CheckBox)N24; }
+                                   
+         if (a.Equals(N15)) { b = (CheckBox)Y15; }
+         if (a.Equals(Y15)) { b = (CheckBox)N15; }
+                                   
+         if (a.Equals(N16)) { b = (CheckBox)Y16; }
+         if (a.Equals(Y16)) { b = (CheckBox)N16; }
+                                   
+         if (a.Equals(N26)) { b = (CheckBox)Y26; }
+         if (a.Equals(Y26)) { b = (CheckBox)N26; }
+                                   
+         if (a.Equals(N17)) { b = (CheckBox)Y17; }
+         if (a.Equals(Y17)) { b = (CheckBox)N17; }
+                                   
+         if (a.Equals(N27)) { b = (CheckBox)Y27; }
+         if (a.Equals(Y27)) { b = (CheckBox)N27; }
+                                   
+         if (a.Equals(N37)) { b = (CheckBox)Y37; }
+         if (a.Equals(Y37)) { b = (CheckBox)N37; }
+                                   
+         if (a.Equals(N47)) { b = (CheckBox)Y47; }
+         if (a.Equals(Y47)) { b = (CheckBox)N47; }
+                                   
+         if (a.Equals(N57)) { b = (CheckBox)Y57; }
+         if (a.Equals(Y57)) { b = (CheckBox)N57; }
+                                   
+         if (a.Equals(N67)) { b = (CheckBox)Y67; }
+         if (a.Equals(Y67)) { b = (CheckBox)N67; }
+                                   
+         if (a.Equals(N77)) { b = (CheckBox)Y77; }
+         if (a.Equals(Y77)) { b = (CheckBox)N77; }
+                                   
+         if (a.Equals(N87)) { b = (CheckBox)Y87; }
+         if (a.Equals(Y87)) { b = (CheckBox)N87; }
 
-            if (a.Equals(N12)) { b = (Controls.CustomCheckbox)Y12; }
-            if (a.Equals(Y12)) { b = (Controls.CustomCheckbox)N12; }
-
-            if (a.Equals(N22)) { b = (Controls.CustomCheckbox)Y22; }
-            if (a.Equals(Y22)) { b = (Controls.CustomCheckbox)N22; }
-
-            if (a.Equals(N32)) { b = (Controls.CustomCheckbox)Y32; }
-            if (a.Equals(Y32)) { b = (Controls.CustomCheckbox)N32; }
-
-            if (a.Equals(N13)) { b = (Controls.CustomCheckbox)Y13; }
-            if (a.Equals(Y13)) { b = (Controls.CustomCheckbox)N13; }
-
-            if (a.Equals(N23)) { b = (Controls.CustomCheckbox)Y23; }
-            if (a.Equals(Y23)) { b = (Controls.CustomCheckbox)N23; }
-
-            if (a.Equals(N33)) { b = (Controls.CustomCheckbox)Y33; }
-            if (a.Equals(Y33)) { b = (Controls.CustomCheckbox)N33; }
-
-            if (a.Equals(N43)) { b = (Controls.CustomCheckbox)Y43; }
-            if (a.Equals(Y43)) { b = (Controls.CustomCheckbox)N43; }
-
-            if (a.Equals(N14)) { b = (Controls.CustomCheckbox)Y14; }
-            if (a.Equals(Y14)) { b = (Controls.CustomCheckbox)N14; }
-
-            if (a.Equals(N24)) { b = (Controls.CustomCheckbox)Y24; }
-            if (a.Equals(Y24)) { b = (Controls.CustomCheckbox)N24; }
-
-            if (a.Equals(N15)) { b = (Controls.CustomCheckbox)Y15; }
-            if (a.Equals(Y15)) { b = (Controls.CustomCheckbox)N15; }
-
-            if (a.Equals(N16)) { b = (Controls.CustomCheckbox)Y16; }
-            if (a.Equals(Y16)) { b = (Controls.CustomCheckbox)N16; }
-
-            if (a.Equals(N26)) { b = (Controls.CustomCheckbox)Y26; }
-            if (a.Equals(Y26)) { b = (Controls.CustomCheckbox)N26; }
-
-            if (a.Equals(N17)) { b = (Controls.CustomCheckbox)Y17; }
-            if (a.Equals(Y17)) { b = (Controls.CustomCheckbox)N17; }
-
-            if (a.Equals(N27)) { b = (Controls.CustomCheckbox)Y27; }
-            if (a.Equals(Y27)) { b = (Controls.CustomCheckbox)N27; }
-
-            if (a.Equals(N37)) { b = (Controls.CustomCheckbox)Y37; }
-            if (a.Equals(Y37)) { b = (Controls.CustomCheckbox)N37; }
-
-            if (a.Equals(N47)) { b = (Controls.CustomCheckbox)Y47; }
-            if (a.Equals(Y47)) { b = (Controls.CustomCheckbox)N47; }
-
-            if (a.Equals(N57)) { b = (Controls.CustomCheckbox)Y57; }
-            if (a.Equals(Y57)) { b = (Controls.CustomCheckbox)N57; }
-
-            if (a.Equals(N67)) { b = (Controls.CustomCheckbox)Y67; }
-            if (a.Equals(Y67)) { b = (Controls.CustomCheckbox)N67; }
-
-            if (a.Equals(N77)) { b = (Controls.CustomCheckbox)Y77; }
-            if (a.Equals(Y77)) { b = (Controls.CustomCheckbox)N77; }
-
-            if (a.Equals(N87)) { b = (Controls.CustomCheckbox)Y87; }
-            if (a.Equals(Y87)) { b = (Controls.CustomCheckbox)N87; }
-
-            if (a.IsChecked == true)
+          if (a.IsChecked == true)
             {
                 b.IsChecked = false;
             }

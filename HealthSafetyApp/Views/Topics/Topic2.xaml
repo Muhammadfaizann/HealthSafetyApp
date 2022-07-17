@@ -66,8 +66,10 @@
 
                     <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
                         <Label Text="Is it possible to avoid the need to use hazardous substances?"/>
-                        <chkbx:CheckBox DefaultText="Yes" x:Name="option1_yes" TextColor="Green"/>
-                        <chkbx:CheckBox x:Name="option1_No" DefaultText="No" TextColor="Red"/>
+                        <!--<chkbx:CheckBox DefaultText="Yes" x:Name="option1_yes" TextColor="Green"/>-->
+                        <chkbx:CheckText DefaultText="Yes" x:Name="option1_yes" Color="Green" TextColor="Green" Visual="Material"/>
+                        <chkbx:CheckText x:Name="option1_No" DefaultText="No" TextColor="Red" Color="Red" Visual="Material"/>
+                        
                     </StackLayout>
 
                     <StackLayout BackgroundColor="Gray" HorizontalOptions="Fill" Orientation="Horizontal">
@@ -100,10 +102,10 @@
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" >
-                        <chkbx:CheckBox x:Name="chkbx1" DefaultText="Employees"/>
-                        <chkbx:CheckBox x:Name="chkbx2" DefaultText="Students"/>
-                        <chkbx:CheckBox x:Name="Others_CB" DefaultText="Others"/>
-                        <chkbx:CheckBox x:Name="Valnerable_CB" DefaultText="Vulnerable Persons"/>
+                        <chkbx:CheckText x:Name="chkbx1" DefaultText="Employees" Visual="Material" Color="Red"/>
+                        <chkbx:CheckText x:Name="chkbx2" DefaultText="Students" Visual="Material" Color="Red"/>
+                        <chkbx:CheckText x:Name="Others_CB" DefaultText="Others" Visual="Material" Color="Red"/>
+                        <chkbx:CheckText x:Name="Valnerable_CB" DefaultText="Vulnerable Persons" Visual="Material" Color="Red"/>
                     </StackLayout>
 
                     <StackLayout>
@@ -157,7 +159,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb211" Checked="False" DefaultText="Acute Toxicity"/>
+                                <chkbx:CheckText x:Name="cb211" Checked="False" DefaultText="Acute Toxicity" Visual="Material" Color="Red"/>
                             </StackLayout>
 
                             <StackLayout Grid.Column="1" BackgroundColor="WhiteSmoke" >
@@ -167,7 +169,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox  x:Name="cb212" Checked="False" DefaultText="Serious eye irritation"/>
+                                <chkbx:CheckText  x:Name="cb212" Checked="False" DefaultText="Serious eye irritation" Visual="Material" Color="Red"/>
                             </StackLayout>
 
 
@@ -179,7 +181,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb213" Checked="False" DefaultText="Highly Flammable"/>
+                                <chkbx:CheckText x:Name="cb213" Checked="False" DefaultText="Highly Flammable" Visual="Material" Color="Red"/>
                             </StackLayout>
 
 
@@ -198,7 +200,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb221" Checked="False" DefaultText="Very Toxic (Fatal)"/>
+                                <chkbx:CheckText x:Name="cb221" Checked="False" DefaultText="Very Toxic (Fatal)" Visual="Material" Color="Red"/>
                             </StackLayout>
 
 
@@ -210,7 +212,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb222" Checked="False" DefaultText="Respiratory Sensitiser"/>
+                                <chkbx:CheckText x:Name="cb222" Checked="False" DefaultText="Respiratory Sensitiser" Color="Red"
+                                                 Visual="Material"/>
                             </StackLayout>
 
 
@@ -221,7 +224,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox  x:Name="cb223" Checked="False" DefaultText="Extremely Flammable"/>
+                                <chkbx:CheckText  x:Name="cb223" Checked="False" DefaultText="Extremely Flammable" Visual="Material"
+                                                  Color="Red"/>
                             </StackLayout>
 
 
@@ -240,7 +244,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb231" Checked="False" DefaultText="Corrosive"/>
+                                <chkbx:CheckText x:Name="cb231" Checked="False" DefaultText="Corrosive" Visual="Material"
+                                                 Color="Red"/>
                             </StackLayout>
 
                             <StackLayout Grid.Column="1" BackgroundColor="WhiteSmoke" >
@@ -250,7 +255,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox  x:Name="cb232" Checked="False" DefaultText="Serious Long Term Health Hazard"/>
+                                <chkbx:CheckText  x:Name="cb232" Checked="False" DefaultText="Serious Long Term Health Hazard" Visual="Material"
+                                                  Color="Red"/>
                             </StackLayout>
 
 
@@ -262,7 +268,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox  x:Name="cb233" Checked="False" DefaultText="Dangerous To The Environment"/>
+                                <chkbx:CheckText  x:Name="cb233" Checked="False" DefaultText="Dangerous To The Environment" Visual="Material"
+                                                  Color="Red"/>
                             </StackLayout>
 
 
@@ -281,7 +288,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb241" Checked="False" DefaultText="Harmful"/>
+                                <chkbx:CheckText x:Name="cb241" Checked="False" DefaultText="Harmful" Visual="Material" 
+                                                 Color="Red"/>
                             </StackLayout>
 
 
@@ -293,7 +301,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb242" Checked="False" DefaultText="Oxidising"/>
+                                <chkbx:CheckText x:Name="cb242" Checked="False" DefaultText="Oxidising" Visual="Material"
+                                                 Color="Red"/>
                             </StackLayout>
 
 
@@ -304,7 +313,8 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb243" Checked="False" DefaultText="Gasses Under Pressure"/>
+                                <chkbx:CheckText x:Name="cb243" Checked="False" DefaultText="Gasses Under Pressure" Visual="Material"
+                                                 Color="Red"/>
                             </StackLayout>
                         </Grid>
                         <Grid Grid.Row="4">
@@ -322,7 +332,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb251" Checked="False" DefaultText="Explosive"/>
+                                <chkbx:CheckText x:Name="cb251" Checked="False" DefaultText="Explosive" Visual="Material" Color="Red"/>
                             </StackLayout>
 
                             <StackLayout Grid.Column="1" BackgroundColor="WhiteSmoke" >
@@ -332,7 +342,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="cb252" Checked="False" DefaultText="Flammable"/>
+                                <chkbx:CheckText x:Name="cb252" Checked="False" DefaultText="Flammable" Visual="Material" Color="Red"/>
                             </StackLayout>
 
 
@@ -347,22 +357,22 @@
 
                         <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
                             <Label Text="Is it possible to use a less harmful substance to do the work?"/>
-                            <chkbx:CheckBox DefaultText="Yes" x:Name="option3_yes" TextColor="Green"/>
-                            <chkbx:CheckBox x:Name="option3_No" DefaultText="No" TextColor="Red"/>
+                            <chkbx:CheckText DefaultText="Yes" x:Name="option3_yes" TextColor="Green" Visual="Material" Color="Green"/>
+                            <chkbx:CheckText x:Name="option3_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red"/>
                         </StackLayout>
 
 
                         <Label BackgroundColor="LightGray" FontSize="Medium"  Text="Which form the substance takes?"/>
                         <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
-                            <chkbx:CheckBox DefaultText="Gas" x:Name="opt_Gas" />
-                            <chkbx:CheckBox  DefaultText="Vapour" x:Name="opt_Vapour" />
-                            <chkbx:CheckBox DefaultText="Mist" x:Name="opt_Mist" />
-                            <chkbx:CheckBox  DefaultText="Fume" x:Name="opt_Fume" />
+                            <chkbx:CheckText DefaultText="Gas" x:Name="opt_Gas" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  DefaultText="Vapour" x:Name="opt_Vapour" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText DefaultText="Mist" x:Name="opt_Mist" Visual="Material"  Color="Red"/>
+                            <chkbx:CheckText  DefaultText="Fume" x:Name="opt_Fume" Visual="Material" Color="Red"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
-                            <chkbx:CheckBox DefaultText="Dust" x:Name="opt_Dust" />
-                            <chkbx:CheckBox  DefaultText="Liquid" x:Name="opt_Liquid" />
-                            <chkbx:CheckBox DefaultText="Solid" x:Name="opt_Solid" />
+                            <chkbx:CheckText DefaultText="Dust" x:Name="opt_Dust" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  DefaultText="Liquid" x:Name="opt_Liquid" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText DefaultText="Solid" x:Name="opt_Solid" Visual="Material" Color="Red"/>
                         </StackLayout>
                         <!--<StackLayout Orientation="Horizontal" BackgroundColor="LightGray">-->
                         <Label Text="Other(state):" HorizontalOptions="Start"/>
@@ -373,10 +383,10 @@
 
                         <Label BackgroundColor="LightGray" FontSize="Medium"  Text="Indicate below which route(s) of exposure the substance takes"/>
                         <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
-                            <chkbx:CheckBox DefaultText="Inhalation" x:Name="opt_Inhalation" />
-                            <chkbx:CheckBox  DefaultText="Skin" x:Name="opt_Skin" />
-                            <chkbx:CheckBox DefaultText="Eyes" x:Name="opt_eyes" />
-                            <chkbx:CheckBox  DefaultText="Ingestion" x:Name="opt_ingestion" />
+                            <chkbx:CheckText DefaultText="Inhalation" x:Name="opt_Inhalation" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  DefaultText="Skin" x:Name="opt_Skin" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText DefaultText="Eyes" x:Name="opt_eyes" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  DefaultText="Ingestion" x:Name="opt_ingestion" Visual="Material" Color="Red"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
                             <Label Text="Other(state):" HorizontalOptions="Start"/>
@@ -385,8 +395,8 @@
 
                         <StackLayout Orientation="Vertical" BackgroundColor="LightGray">
                             <Label FontSize="Medium" Text="Workplace exposure limits(WELs):" HorizontalOptions="Start"/>
-                            <chkbx:CheckBox DefaultText="Long-term exposure level(8hrs TWA)" x:Name="opt_expolmt_long" />
-                            <chkbx:CheckBox  DefaultText="Short-term exposure level(15 mins)" x:Name="opt_expolmt_short" />
+                            <chkbx:CheckText DefaultText="Long-term exposure level(8hrs TWA)" x:Name="opt_expolmt_long" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  DefaultText="Short-term exposure level(15 mins)" x:Name="opt_expolmt_short" Visual="Material" Color="Red"/>
                         </StackLayout>
 
                         <Label Text="List the risks to health below from exposure to the substance:" FontSize="Medium"  TextColor="#0086b7" />
@@ -409,8 +419,8 @@
                         <Label FontSize="Small" FontAttributes="Italic" Text="(Remember health surveillance may be required for vulnerable persons eg pregnant/young workers those with asthma, dermatitis etc?)"/>
                     
                     <StackLayout Margin="0,0,0,5"  Orientation="Horizontal" BackgroundColor="WhiteSmoke">
-                            <chkbx:CheckBox DefaultText="Yes" x:Name="option4_yes" TextColor="Green"/>
-                            <chkbx:CheckBox x:Name="option4_No" DefaultText="No" TextColor="Red"/>
+                            <chkbx:CheckText DefaultText="Yes" x:Name="option4_yes" TextColor="Green" Visual="Material" Color="Green"/>
+                            <chkbx:CheckText x:Name="option4_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red"/>
                         </StackLayout>
                     </StackLayout>
                     <BoxView HeightRequest="50"/>
@@ -444,7 +454,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk311" Checked="False" DefaultText="Dust mask"/>
+                                <chkbx:CheckText x:Name="chk311" Checked="False" DefaultText="Dust mask" Visual="Material" Color="Red"/>
                             </StackLayout>
 
                             <StackLayout Grid.Column="1" BackgroundColor="WhiteSmoke" >
@@ -454,7 +464,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk312" Checked="False" DefaultText="Visor"/>
+                                <chkbx:CheckText x:Name="chk312" Checked="False" DefaultText="Visor" Visual="Material" Color="Red"/>
                             </StackLayout>
 
                             <StackLayout Grid.Column="2" BackgroundColor="LightGray" >
@@ -464,7 +474,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk313" Checked="False" DefaultText="Respirator"/>
+                                <chkbx:CheckText x:Name="chk313" Checked="False" DefaultText="Respirator" Visual="Material" Color="Red"/>
                             </StackLayout>
                         </Grid>
                         <Grid Grid.Row="1">
@@ -482,7 +492,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk321" Checked="False" DefaultText="Goggles"/>
+                                <chkbx:CheckText x:Name="chk321" Checked="False" DefaultText="Goggles" Visual="Material" Color="Red"/>
                             </StackLayout>
 
 
@@ -495,7 +505,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk322" Checked="False" DefaultText="Gloves"/>
+                                <chkbx:CheckText x:Name="chk322" Checked="False" DefaultText="Gloves" Visual="Material" Color="Red"/>
                             </StackLayout>
 
                             <StackLayout  Grid.Column="2"  BackgroundColor="WhiteSmoke">
@@ -505,7 +515,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk323" Checked="False" DefaultText="Overalls"/>
+                                <chkbx:CheckText x:Name="chk323" Checked="False" DefaultText="Overalls" Visual="Material" Color="Red"/>
                             </StackLayout>
                         </Grid>
                         <Grid Grid.Row="2">
@@ -523,7 +533,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk331" Checked="False" DefaultText="Footwear"/>
+                                <chkbx:CheckText x:Name="chk331" Checked="False" DefaultText="Footwear" Visual="Material" Color="Red"/>
                             </StackLayout>
 
 
@@ -534,7 +544,7 @@
                                        Margin="0,0,0,0"
                                        HorizontalOptions="Center"/>
 
-                                <chkbx:CheckBox x:Name="chk332" Checked="False" DefaultText="Other"/>
+                                <chkbx:CheckText x:Name="chk332" Checked="False" DefaultText="Other" Visual="Material" Color="Red"/>
                             </StackLayout>
                         </Grid>
                     </Grid>
@@ -549,13 +559,13 @@
                     <StackLayout>
                         <Label Text="Identify appropriate fire extiguishers" FontSize="Medium"  TextColor="#0086b7" />
                         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="FillAndExpand" >
-                            <chkbx:CheckBox  x:Name="opt_fireext_dry" DefaultText="Dry powder"/>
-                            <chkbx:CheckBox  x:Name="opt_fireext_co2" DefaultText="CO2"/>
-                            <chkbx:CheckBox  x:Name="opt_fireext_water" DefaultText="Water"/>
+                            <chkbx:CheckText  x:Name="opt_fireext_dry" DefaultText="Dry powder" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText x:Name="opt_fireext_co2" DefaultText="CO2" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  x:Name="opt_fireext_water" DefaultText="Water" Visual="Material" Color="Red"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="FillAndExpand" >
-                            <chkbx:CheckBox  x:Name="opt_fireext_foam" DefaultText="Foam"/>
-                            <chkbx:CheckBox  x:Name="opt_fireext_fireblanket" DefaultText="Fire blanket"/>
+                            <chkbx:CheckText  x:Name="opt_fireext_foam" DefaultText="Foam" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  x:Name="opt_fireext_fireblanket" DefaultText="Fire blanket" Visual="Material" Color="Red"/>
                         </StackLayout>
                     </StackLayout>
 
@@ -573,22 +583,22 @@
                     <StackLayout>
                         <Label Text="Disposal of waste substances and containers please indicate below " FontSize="Medium"  TextColor="#0086b7" />
                         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="FillAndExpand" >
-                            <chkbx:CheckBox  x:Name="opt_dispose_hazardous" DefaultText="Hazardous waste"/>
-                            <chkbx:CheckBox  x:Name="opt_dispose_general" DefaultText="General waste"/>
+                            <chkbx:CheckText  x:Name="opt_dispose_hazardous" DefaultText="Hazardous waste" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  x:Name="opt_dispose_general" DefaultText="General waste" Visual="Material" Color="Red"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="FillAndExpand" >
-                            <chkbx:CheckBox  x:Name="opt_dispose_biological" DefaultText="Biological waste"/>
-                            <chkbx:CheckBox  x:Name="opt_dispose_returntosupplier" DefaultText="Return to supplier"/>
+                            <chkbx:CheckText  x:Name="opt_dispose_biological" DefaultText="Biological waste" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText  x:Name="opt_dispose_returntosupplier" DefaultText="Return to supplier" Visual="Material" Color="Red"/>
                         </StackLayout>
                         <StackLayout Orientation="Horizontal" VerticalOptions="Fill" HorizontalOptions="StartAndExpand" >
-                            <chkbx:CheckBox  x:Name="opt_dispose_other" DefaultText="Other"/>
+                            <chkbx:CheckText  x:Name="opt_dispose_other" DefaultText="Other" Visual="Material" Color="Red"/>
                         </StackLayout>
                     </StackLayout>
 
                     <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
                         <Label Text="Is exposure adequately controlled?"/>
-                        <chkbx:CheckBox DefaultText="Yes" x:Name="opt_exposure_yes" TextColor="Green"/>
-                        <chkbx:CheckBox x:Name="opt_exposure_No" DefaultText="No" TextColor="Red"/>
+                        <chkbx:CheckText DefaultText="Yes" x:Name="opt_exposure_yes" TextColor="Green" Visual="Material" Color="Green"/>
+                        <chkbx:CheckText x:Name="opt_exposure_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red"/>
                     </StackLayout>
 
                 </StackLayout>

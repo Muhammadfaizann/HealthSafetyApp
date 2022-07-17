@@ -17,6 +17,7 @@ namespace HealthSafetyApp.Droid
             
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            global::Xamarin.Forms.FormsMaterial.Init(this, savedInstanceState);
             CachedImageRenderer.Init(true);
             UserDialogs.Init(this);
             LoadApplication(new App());

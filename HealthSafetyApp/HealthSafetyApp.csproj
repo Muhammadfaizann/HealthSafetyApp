@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -16,10 +16,25 @@
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.7" />
     <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.11.982" />
     <PackageReference Include="Acr.UserDialogs" Version="7.2.0.564" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.7.0.1260" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="FirebaseDatabase.net" />
+    <None Remove="Images\checked.png" />
+    <None Remove="Images\unchecked.png" />
     <None Remove="Xamarin.FFImageLoading.Svg.Forms" />
     <None Remove="Acr.UserDialogs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\checked.png" />
+    <EmbeddedResource Include="Images\unchecked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Controls\CheckText.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TestPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

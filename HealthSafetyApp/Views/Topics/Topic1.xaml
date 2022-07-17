@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:chkbx="clr-namespace:HealthSafetyApp.Controls"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:chkbx="clr-namespace:HealthSafetyApp.Controls"
              x:Class="HealthSafetyApp.Views.Topics.Topic1">
    
         <ScrollView x:Name="myscrollview" Orientation="Vertical" VerticalOptions="FillAndExpand">
@@ -595,13 +596,15 @@
             <!--step 3-->
             <StackLayout Orientation="Horizontal" IsVisible="False" >
             
-                <chkbx:CustomCheckbox x:Name="chkbx1" Checked="chkbx1_CheckedChanged" Color="Green"/>
+                <!--<chkbx:CustomCheckbox x:Name="chkbx1" Checked="chkbx1_CheckedChanged" Color="Green"/>-->
+                <CheckBox x:Name="chkbx1" CheckedChanged="chkbx1_CheckedChanged" Color="Green" Visual="Material"/>
                 <Entry x:Name="txt_Check1_text" Placeholder="" PlaceholderColor="#939393"  HorizontalOptions="FillAndExpand"/>
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" IsVisible="False">
 
-                <chkbx:CustomCheckbox x:Name="chkbx2" Checked="chkbx2_CheckedChanged" Color="Green"/>
+                <!--<chkbx:CustomCheckbox x:Name="chkbx2" Checked="chkbx2_CheckedChanged" Color="Green"/>-->
+                <CheckBox x:Name="chkbx2" CheckedChanged="chkbx2_CheckedChanged" Color="Green"/>
                 <Entry x:Name="txt_Check2_text" Placeholder="" PlaceholderColor="#939393"  HorizontalOptions="FillAndExpand"/>
                 
             </StackLayout>

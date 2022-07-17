@@ -104,9 +104,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB11" DefaultText=" Poor" TextColor="Red" FontSize="10" HorizontalOptions="Start"  CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB12" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB13" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB11" DefaultText=" Poor" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" Visual="Material" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB12" DefaultText=" Moderate" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" Visual="Material" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB13" DefaultText=" Good" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False" Visual="Material" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -118,9 +118,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB21" Grid.Row="3" Grid.Column="1" DefaultText=" Poor" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB22" Grid.Row="3" Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB23" Grid.Row="3" Grid.Column="1" DefaultText=" Good" TextColor="Green" Checked="True" IsEnabled="False" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB21" Grid.Row="3" Grid.Column="1" DefaultText=" Poor" TextColor="Red" Color="Red" FontSize="10" Visual="Material" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB22" Grid.Row="3" Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" Color="Orange" FontSize="10" Visual="Material"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB23" Grid.Row="3" Grid.Column="1" DefaultText=" Good" TextColor="Green" Color="Green" Checked="True" IsEnabled="False" FontSize="10" Visual="Material"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -133,9 +133,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="LightGray" Grid.Row="4" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB31" Grid.Row="4"  DefaultText=" Poor" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB32" Grid.Row="4" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB33" Grid.Row="4" DefaultText=" Good" TextColor="Green" Checked="True" IsEnabled="False" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB31" Grid.Row="4" Visual="Material" DefaultText=" Poor" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB32" Grid.Row="4" Visual="Material" DefaultText=" Moderate" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB33" Grid.Row="4" Visual="Material" DefaultText=" Good" TextColor="Green" Color="Green" Checked="True" IsEnabled="False" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="LightGray" Grid.Row="4" Grid.Column="2" >
                     <Entry x:Name="TB3" Grid.Row="4" Grid.Column="2" />
@@ -159,9 +159,9 @@
                     <Label Grid.Row="7" Grid.Column="0" Text="2.1 Extinguishers in correct location and in test" FontSize="Small" HorizontalOptions="Start"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="LightGray" Grid.Row="7" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB41" Grid.Row="7"  DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB42" Grid.Row="7"  DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB43" Grid.Row="7"  DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB41" Grid.Row="7" Visual="Material"  DefaultText=" Poor"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB42" Grid.Row="7" Visual="Material"  DefaultText=" Moderate" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB43" Grid.Row="7" Visual="Material" DefaultText=" Good" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout BackgroundColor="LightGray" Grid.Row="7" Grid.Column="2" >
@@ -172,9 +172,9 @@
                     <Label Grid.Row="8"  Grid.Column="0" Text="2.2 Alarm call points identified" FontSize="Small" HorizontalOptions="Start" />
                 </StackLayout>
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="8" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB51" Grid.Row="8" DefaultText=" Poor" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB52" Grid.Row="8" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB53" Grid.Row="8" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB51" Grid.Row="8" Visual="Material" DefaultText=" Poor" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB52" Grid.Row="8" Visual="Material" DefaultText=" Moderate" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB53" Grid.Row="8" Visual="Material"  DefaultText=" Good" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="8" Grid.Column="2" >
                     <Entry x:Name="TB5" Grid.Row="8" Grid.Column="2" />
@@ -184,9 +184,9 @@
                     <Label Grid.Row="9" Grid.Column="0" Text="2.3 Emergency routes and doors clear" FontSize="Small" HorizontalOptions="Start" />
                 </StackLayout>
                 <StackLayout BackgroundColor="LightGray" Grid.Row="9" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB61" Grid.Row="9" DefaultText=" Poor" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB62" Grid.Row="9" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB63" Grid.Row="9" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB61" Grid.Row="9" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB62" Grid.Row="9" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB63" Grid.Row="9" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="LightGray" Grid.Row="9" Grid.Column="2" >
                     <Entry x:Name="TB6" Grid.Row="9" Grid.Column="2" />
@@ -196,9 +196,9 @@
                     <Label Grid.Row="10" Grid.Column="0" Text="2.4 Emergency exit doors clear" FontSize="Small" HorizontalOptions="Start" />
                 </StackLayout>
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="10" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB71"  DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB72"  DefaultText=" Moderate" TextColor="Orange" FontSize="10"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB73"  DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB71"  DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB72"  DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB73"  DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="10" Grid.Column="2" >
                     <Entry x:Name="TB7" Grid.Row="10" Grid.Column="2" />
@@ -208,9 +208,9 @@
                     <Label Grid.Row="11" Grid.Column="0" Text="2.5 Emergency lights charging" FontSize="Small" HorizontalOptions="Start"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="LightGray" Grid.Row="11" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB81" Grid.Row="11" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB82" Grid.Row="11" DefaultText=" Moderate" TextColor="Orange" FontSize="10"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB83" Grid.Row="11" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB81" Grid.Row="11" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB82" Grid.Row="11" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB83" Grid.Row="11" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="LightGray" Grid.Row="11" Grid.Column="2" >
                     <Entry x:Name="TB8" Grid.Row="11" Grid.Column="2" />
@@ -220,9 +220,9 @@
                     <Label Grid.Row="12" Grid.Column="0" Text="2.6 Fire alarm tests completed" FontSize="Small" HorizontalOptions="Start"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="12" Grid.Column="1" >
-                    <chkbx:CheckBox x:Name="CB91" Grid.Row="12" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB92" Grid.Row="12" DefaultText=" Moderate" TextColor="Orange" FontSize="10"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB93" Grid.Row="12" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB91" Grid.Row="12" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB92" Grid.Row="12" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB93" Grid.Row="12" DefaultText=" Good"  Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="12" Grid.Column="2" >
                     <Entry x:Name="TB9" Grid.Row="12" Grid.Column="2" />
@@ -266,9 +266,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB101" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB102" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB103" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB101" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB102" DefaultText=" Moderate" Visual="Material"  TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB103" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -280,9 +280,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB111"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB112"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB113"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB111"  Grid.Column="1" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB112"  Grid.Column="1" DefaultText=" Moderate" Visual="Material"  TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB113"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -326,9 +326,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB121" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB122" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB123" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB121" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB122" DefaultText=" Moderate" Visual="Material"  TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB123" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -340,9 +340,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB131"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB132"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB133"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB131"  Grid.Column="1" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB132"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB133"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -386,9 +386,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB141" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB142" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB143" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB141" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB142" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB143" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -400,9 +400,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB151"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB152"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB153"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB151"  Grid.Column="1" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB152"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB153"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -445,9 +445,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB161" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB162" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB163" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB161" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB162" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB163" DefaultText=" Good" Visual="Material" TextColor="Green" FontSize="10" Color="Green" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -459,9 +459,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB171"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB172"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB173"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB171"  Grid.Column="1" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB172"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB173"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -506,9 +506,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB181" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB182" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB183" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB181" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB182" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB183" DefaultText=" Good" Visual="Material" TextColor="Green" FontSize="10" Color="Green" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -520,9 +520,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB191"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB192"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB193"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB191"  Grid.Column="1" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB192"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB193"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -534,9 +534,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB201" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB202" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB203" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB201" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB202" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB203" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -548,9 +548,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB211"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB212"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB213"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB211"  Grid.Column="1" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB212"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB213"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -595,9 +595,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB221" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB222" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB223" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB221" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB222" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB223" DefaultText=" Good" Visual="Material" TextColor="Green" FontSize="10" Color="Green" Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -609,9 +609,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB231"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB232"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB233"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB231"  Grid.Column="1" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB232"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB233"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -623,9 +623,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB241" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB242" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB243" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB241" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB242" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB243" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -672,9 +672,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB251" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB252" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB253" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB251" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB252" DefaultText=" Moderate" Visual="Material" Color="Orange"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB253" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -686,9 +686,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB261"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB262"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB263"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB261"  Grid.Column="1" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB262"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB263"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" FontSize="10" Color="Green" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -700,9 +700,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB271" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB272" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB273" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB271" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB272" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB273" DefaultText=" Good" Visual="Material" TextColor="Green" FontSize="10" Color="Green"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -747,9 +747,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB281" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB282" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB283" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB281" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB282" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB283" DefaultText=" Good" Visual="Material" TextColor="Green" FontSize="10" Color="Green"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -761,9 +761,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB291"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB292"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB293"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB291"  Grid.Column="1" DefaultText=" Poor" Visual="Material"  TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB292"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB293"  Grid.Column="1" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -775,9 +775,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB301" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB302" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB303" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB301" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB302" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB303" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -822,9 +822,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB311" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB312" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB313" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB311" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB312" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB313" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -836,9 +836,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB321"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB322"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB323"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB321"  Grid.Column="1" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB322"  Grid.Column="1" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB323"  Grid.Column="1" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -850,9 +850,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB331" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB332" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB333" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB331" DefaultText=" Poor" Visual="Material" TextColor="Red" Color="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB332" DefaultText=" Moderate" Visual="Material" TextColor="Orange" Color="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB333" DefaultText=" Good" Visual="Material" TextColor="Green" Color="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -897,9 +897,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB341" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB342" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB343" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB341" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB342" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB343" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -911,9 +911,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB351"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB352"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB353"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB351"  Grid.Column="1" Visual="Material" DefaultText=" Poor" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB352"  Grid.Column="1" Visual="Material" DefaultText=" Moderate" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB353"  Grid.Column="1" Visual="Material" DefaultText=" Good" Color="Green" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -925,9 +925,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB361" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB362" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB363" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB361" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB362" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB363" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -971,9 +971,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB371" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB372" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB373" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB371" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB372" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB373" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -1018,9 +1018,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB381" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB382" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB383" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB381" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB382" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB383" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -1032,9 +1032,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB391"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB392"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB393"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB391"  Grid.Column="1" Visual="Material" DefaultText=" Poor" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB392"  Grid.Column="1" Visual="Material" DefaultText=" Moderate" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB393"  Grid.Column="1" Visual="Material" DefaultText=" Good" Color="Green" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -1082,9 +1082,9 @@
 
                 <StackLayout Grid.Row="2" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB401" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB402" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB403" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB401" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB402" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB403" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Grid.Column="2" BackgroundColor="LightGray" >
@@ -1096,9 +1096,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="3" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB411"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB412"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB413"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB411"  Grid.Column="1" Visual="Material" DefaultText=" Poor" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB412"  Grid.Column="1" Visual="Material" DefaultText=" Moderate" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB413"  Grid.Column="1" Visual="Material" DefaultText=" Good" Color="Green" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="3" Grid.Column="2" BackgroundColor="WhiteSmoke" >
@@ -1110,9 +1110,9 @@
 
                 <StackLayout Grid.Row="4" Grid.Column="1" BackgroundColor="LightGray">
 
-                    <chkbx:CheckBox x:Name="CB421" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB422" DefaultText=" Moderate"  TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB423" DefaultText=" Good" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB421" DefaultText=" Poor" Visual="Material" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB422" DefaultText=" Moderate" Visual="Material" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB423" DefaultText=" Good" Visual="Material" Color="Green" TextColor="Green" FontSize="10"  Checked="True" IsEnabled="False"  HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="4" Grid.Column="2" BackgroundColor="LightGray" >
@@ -1124,9 +1124,9 @@
                 </StackLayout>
 
                 <StackLayout BackgroundColor="WhiteSmoke" Grid.Row="5" Grid.Column="1">
-                    <chkbx:CheckBox x:Name="CB431"  Grid.Column="1" DefaultText=" Poor"  TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB432"  Grid.Column="1" DefaultText=" Moderate" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
-                    <chkbx:CheckBox x:Name="CB433"  Grid.Column="1" DefaultText=" Good" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB431"  Grid.Column="1" Visual="Material" DefaultText=" Poor" Color="Red" TextColor="Red" FontSize="10" HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB432"  Grid.Column="1" Visual="Material" DefaultText=" Moderate" Color="Orange" TextColor="Orange" FontSize="10"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
+                    <chkbx:CheckText x:Name="CB433"  Grid.Column="1" Visual="Material" DefaultText=" Good" Color="Green" TextColor="Green" FontSize="10" Checked="True" IsEnabled="False"   HorizontalOptions="Start" CheckedChanged="CC_Checked"/>
                 </StackLayout>
 
                 <StackLayout Grid.Row="5" Grid.Column="2" BackgroundColor="WhiteSmoke" >

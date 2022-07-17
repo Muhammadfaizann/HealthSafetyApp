@@ -47,39 +47,39 @@ namespace HealthSafetyApp.Views.Topics
         }
         private void CC_Checked(object sender, EventArgs e)
         {
-            Controls.CheckBox a = (Controls.CheckBox)sender;
+            Controls.CheckText a = (Controls.CheckText)sender;
 
-            Controls.CheckBox CbRed;
-            Controls.CheckBox CbOrg;
-            Controls.CheckBox CbGrn;
+            Controls.CheckText CbRed;
+            Controls.CheckText CbOrg;
+            Controls.CheckText CbGrn;
 
-            CbRed = (Controls.CheckBox)CB11;
-            CbOrg = (Controls.CheckBox)CB12;
-            CbGrn = (Controls.CheckBox)CB13;
+            CbRed = (Controls.CheckText)CB11;
+            CbOrg = (Controls.CheckText)CB12;
+            CbGrn = (Controls.CheckText)CB13;
 
-            if (a.Equals(CB11) || a.Equals(CB12) || a.Equals(CB13)) { CbRed = (Controls.CheckBox)CB11; CbOrg = (Controls.CheckBox)CB12; CbGrn = (Controls.CheckBox)CB13; }
-            if (a.Equals(CB21) || a.Equals(CB22) || a.Equals(CB23)) { CbRed = (Controls.CheckBox)CB21; CbOrg = (Controls.CheckBox)CB22; CbGrn = (Controls.CheckBox)CB23; }
-            if (a.Equals(CB31) || a.Equals(CB32) || a.Equals(CB33)) { CbRed = (Controls.CheckBox)CB31; CbOrg = (Controls.CheckBox)CB32; CbGrn = (Controls.CheckBox)CB33; }
+           if (a.Equals(CB11) || a.Equals(CB12) || a.Equals(CB13)) { CbRed = (Controls.CheckText)CB11; CbOrg = (Controls.CheckText)CB12; CbGrn = (Controls.CheckText)CB13; }
+           if (a.Equals(CB21) || a.Equals(CB22) || a.Equals(CB23)) { CbRed = (Controls.CheckText)CB21; CbOrg = (Controls.CheckText)CB22; CbGrn = (Controls.CheckText)CB23; }
+           if (a.Equals(CB31) || a.Equals(CB32) || a.Equals(CB33)) { CbRed = (Controls.CheckText)CB31; CbOrg = (Controls.CheckText)CB32; CbGrn = (Controls.CheckText)CB33; }
 
-            if (a.Equals(CB41) || a.Equals(CB42) || a.Equals(CB43)) { CbRed = (Controls.CheckBox)CB41; CbOrg = (Controls.CheckBox)CB42; CbGrn = (Controls.CheckBox)CB43; }
-            if (a.Equals(CB51) || a.Equals(CB52) || a.Equals(CB53)) { CbRed = (Controls.CheckBox)CB51; CbOrg = (Controls.CheckBox)CB52; CbGrn = (Controls.CheckBox)CB53; }
-            if (a.Equals(CB61) || a.Equals(CB62) || a.Equals(CB63)) { CbRed = (Controls.CheckBox)CB61; CbOrg = (Controls.CheckBox)CB62; CbGrn = (Controls.CheckBox)CB63; }
+           if (a.Equals(CB41) || a.Equals(CB42) || a.Equals(CB43)) { CbRed = (Controls.CheckText)CB41; CbOrg = (Controls.CheckText)CB42; CbGrn = (Controls.CheckText)CB43; }
+           if (a.Equals(CB51) || a.Equals(CB52) || a.Equals(CB53)) { CbRed = (Controls.CheckText)CB51; CbOrg = (Controls.CheckText)CB52; CbGrn = (Controls.CheckText)CB53; }
+           if (a.Equals(CB61) || a.Equals(CB62) || a.Equals(CB63)) { CbRed = (Controls.CheckText)CB61; CbOrg = (Controls.CheckText)CB62; CbGrn = (Controls.CheckText)CB63; }
 
-            if (a.Equals(CB71) || a.Equals(CB72) || a.Equals(CB73)) { CbRed = (Controls.CheckBox)CB71; CbOrg = (Controls.CheckBox)CB72; CbGrn = (Controls.CheckBox)CB73; }
-            if (a.Equals(CB81) || a.Equals(CB82) || a.Equals(CB83)) { CbRed = (Controls.CheckBox)CB81; CbOrg = (Controls.CheckBox)CB82; CbGrn = (Controls.CheckBox)CB83; }
-            if (a.Equals(CB91) || a.Equals(CB92) || a.Equals(CB93)) { CbRed = (Controls.CheckBox)CB91; CbOrg = (Controls.CheckBox)CB92; CbGrn = (Controls.CheckBox)CB93; }
+           if (a.Equals(CB71) || a.Equals(CB72) || a.Equals(CB73)) { CbRed = (Controls.CheckText)CB71; CbOrg = (Controls.CheckText)CB72; CbGrn = (Controls.CheckText)CB73; }
+           if (a.Equals(CB81) || a.Equals(CB82) || a.Equals(CB83)) { CbRed = (Controls.CheckText)CB81; CbOrg = (Controls.CheckText)CB82; CbGrn = (Controls.CheckText)CB83; }
+           if (a.Equals(CB91) || a.Equals(CB92) || a.Equals(CB93)) { CbRed = (Controls.CheckText)CB91; CbOrg = (Controls.CheckText)CB92; CbGrn = (Controls.CheckText)CB93; }
 
-            if (a.Equals(CB101) || a.Equals(CB102) || a.Equals(CB103)) { CbRed = (Controls.CheckBox)CB101; CbOrg = (Controls.CheckBox)CB102; CbGrn = (Controls.CheckBox)CB103; }
-            if (a.Equals(CB111) || a.Equals(CB112) || a.Equals(CB113)) { CbRed = (Controls.CheckBox)CB111; CbOrg = (Controls.CheckBox)CB112; CbGrn = (Controls.CheckBox)CB113; }
-            if (a.Equals(CB121) || a.Equals(CB122) || a.Equals(CB123)) { CbRed = (Controls.CheckBox)CB121; CbOrg = (Controls.CheckBox)CB122; CbGrn = (Controls.CheckBox)CB123; }
+           if (a.Equals(CB101) || a.Equals(CB102) || a.Equals(CB103)) { CbRed = (Controls.CheckText)CB101; CbOrg = (Controls.CheckText)CB102; CbGrn = (Controls.CheckText)CB103; }
+           if (a.Equals(CB111) || a.Equals(CB112) || a.Equals(CB113)) { CbRed = (Controls.CheckText)CB111; CbOrg = (Controls.CheckText)CB112; CbGrn = (Controls.CheckText)CB113; }
+           if (a.Equals(CB121) || a.Equals(CB122) || a.Equals(CB123)) { CbRed = (Controls.CheckText)CB121; CbOrg = (Controls.CheckText)CB122; CbGrn = (Controls.CheckText)CB123; }
 
-            if (a.Equals(CB131) || a.Equals(CB132) || a.Equals(CB133)) { CbRed = (Controls.CheckBox)CB131; CbOrg = (Controls.CheckBox)CB132; CbGrn = (Controls.CheckBox)CB133; }
-            if (a.Equals(CB141) || a.Equals(CB142) || a.Equals(CB143)) { CbRed = (Controls.CheckBox)CB141; CbOrg = (Controls.CheckBox)CB142; CbGrn = (Controls.CheckBox)CB143; }
-            if (a.Equals(CB161) || a.Equals(CB162) || a.Equals(CB163)) { CbRed = (Controls.CheckBox)CB161; CbOrg = (Controls.CheckBox)CB162; CbGrn = (Controls.CheckBox)CB163; }
+           if (a.Equals(CB131) || a.Equals(CB132) || a.Equals(CB133)) { CbRed = (Controls.CheckText)CB131; CbOrg = (Controls.CheckText)CB132; CbGrn = (Controls.CheckText)CB133; }
+           if (a.Equals(CB141) || a.Equals(CB142) || a.Equals(CB143)) { CbRed = (Controls.CheckText)CB141; CbOrg = (Controls.CheckText)CB142; CbGrn = (Controls.CheckText)CB143; }
+           if (a.Equals(CB161) || a.Equals(CB162) || a.Equals(CB163)) { CbRed = (Controls.CheckText)CB161; CbOrg = (Controls.CheckText)CB162; CbGrn = (Controls.CheckText)CB163; }
 
-            if (a.Equals(CB171) || a.Equals(CB172) || a.Equals(CB173)) { CbRed = (Controls.CheckBox)CB171; CbOrg = (Controls.CheckBox)CB172; CbGrn = (Controls.CheckBox)CB173; }
-            if (a.Equals(CB181) || a.Equals(CB182) || a.Equals(CB183)) { CbRed = (Controls.CheckBox)CB181; CbOrg = (Controls.CheckBox)CB182; CbGrn = (Controls.CheckBox)CB183; }
-            if (a.Equals(CB191) || a.Equals(CB192) || a.Equals(CB193)) { CbRed = (Controls.CheckBox)CB191; CbOrg = (Controls.CheckBox)CB192; CbGrn = (Controls.CheckBox)CB193; }
+           if (a.Equals(CB171) || a.Equals(CB172) || a.Equals(CB173)) { CbRed = (Controls.CheckText)CB171; CbOrg = (Controls.CheckText)CB172; CbGrn = (Controls.CheckText)CB173; }
+           if (a.Equals(CB181) || a.Equals(CB182) || a.Equals(CB183)) { CbRed = (Controls.CheckText)CB181; CbOrg = (Controls.CheckText)CB182; CbGrn = (Controls.CheckText)CB183; }
+           if (a.Equals(CB191) || a.Equals(CB192) || a.Equals(CB193)) { CbRed = (Controls.CheckText)CB191; CbOrg = (Controls.CheckText)CB192; CbGrn = (Controls.CheckText)CB193; }
 
             if (a.Checked == true)
             { 
@@ -1414,8 +1414,15 @@ sb.Append(@" <tr bgcolor='lightgray'>
             //await DisplayAlert("File Path", Image1.Source.ToString(), "OK");
         }
 
+        private void CB11_CheckedChanged(object sender, EventArgs e)
+        {
+            Controls.CheckText a = (Controls.CheckText)sender;
+        }
 
+        private void CB11_CheckedChanged_1(object sender, EventArgs e)
+        {
 
+        }
     }
 }
     

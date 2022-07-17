@@ -11,6 +11,12 @@ namespace HealthSafetyApp.Controls
     {
 #pragma warning disable CS0618 // Type or member is obsolete
         public static readonly BindableProperty IsCheckedProperty = BindableProperty.Create<CustomCheckbox, bool>(p => p.IsChecked, true, propertyChanged: (s, o, n) => { (s as CustomCheckbox).OnChecked(new EventArgs()); });
+
+        internal void OnChecked(EventArgs eventArgs)
+        {
+            if (Checked != null)
+                Checked(this, eventArgs);
+        }
 #pragma warning restore CS0618 // Type or member is obsolete
 #pragma warning disable CS0618 // Type or member is obsolete
         public static readonly BindableProperty ColorProperty = BindableProperty.Create<CustomCheckbox, Color>(p => p.Color, Color.Default);
@@ -52,10 +58,6 @@ namespace HealthSafetyApp.Controls
         }
 
         public event EventHandler Checked;
-        protected virtual void OnChecked(EventArgs e)
-        {
-            if (Checked != null)
-                Checked(this, e);
-        }
+       
     }
 }
