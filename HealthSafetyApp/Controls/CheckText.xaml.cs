@@ -17,7 +17,7 @@ namespace HealthSafetyApp.Controls
             InitializeComponent();
         }
 
-        [Obsolete]
+       
         public static readonly BindableProperty IsCheckedProperty = BindableProperty.Create<CheckText, bool>(p => p.Checked, false, propertyChanged: (s, o, n) => { (s as CheckText).OnChecked(new EventArgs()); });
 
         internal void OnChecked(EventArgs eventArgs)
@@ -57,7 +57,7 @@ namespace HealthSafetyApp.Controls
             }
         }
 
-        [Obsolete]
+       
         public bool Checked
         {
             get
