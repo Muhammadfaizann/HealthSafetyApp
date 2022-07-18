@@ -2871,21 +2871,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GTS\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GTS\\Desktop\\HealthSafetyApp\\HealthSafetyApp.iOS\\HealthSafetyApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp.iOS\\HealthSafetyApp.iOS.csproj",
       "projectName": "HealthSafetyApp.iOS",
-      "projectPath": "C:\\Users\\GTS\\Desktop\\HealthSafetyApp\\HealthSafetyApp.iOS\\HealthSafetyApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\GTS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GTS\\Desktop\\HealthSafetyApp\\HealthSafetyApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp.iOS\\HealthSafetyApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\GTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -2897,8 +2905,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\GTS\\Desktop\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj": {
-              "projectPath": "C:\\Users\\GTS\\Desktop\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj"
+            "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj": {
+              "projectPath": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj"
             }
           }
         }

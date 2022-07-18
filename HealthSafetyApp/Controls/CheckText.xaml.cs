@@ -18,7 +18,7 @@ namespace HealthSafetyApp.Controls
         }
 
         [Obsolete]
-        public static readonly BindableProperty IsCheckedProperty = BindableProperty.Create<CustomCheckbox, bool>(p => p.IsChecked, false, propertyChanged: (s, o, n) => { (s as CheckText).OnChecked(new EventArgs()); });
+        public static readonly BindableProperty IsCheckedProperty = BindableProperty.Create<CheckText, bool>(p => p.Checked, false, propertyChanged: (s, o, n) => { (s as CheckText).OnChecked(new EventArgs()); });
 
         internal void OnChecked(EventArgs eventArgs)
         {
