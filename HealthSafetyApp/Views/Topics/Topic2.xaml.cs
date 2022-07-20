@@ -1303,6 +1303,102 @@ namespace HealthSafetyApp.Views.Topics
         private async void OnClick_takepicture(object sender, EventArgs e) { }
         private async void OnClick_pickPicture(object sender, EventArgs e) { }
 
+        private void option1_yes_CheckedChanged(object sender, EventArgs e)
+        {
+            if (option1_yes.Checked)
+            {
+                option1_No.Checked = false;
+            }
+          else
+            {
+                option1_No.Checked = true;
+            }
+        }
+
+        private void option3_yes_CheckedChanged(object sender, EventArgs e)
+        {
+            if (option3_yes.Checked)
+            {
+                option3_No.Checked = false;
+            }
+            else
+            {
+                option3_No.Checked = true;
+            }
+        }
+
+        private void option1_No_CheckedChanged(object sender, EventArgs e)
+        {
+            if (option1_No.Checked)
+            {
+                option1_yes.Checked = false;
+            }
+            else
+            {
+                option1_yes.Checked = true;
+            }
+        }
+
+        private void option3_No_CheckedChanged(object sender, EventArgs e)
+        {
+            if (option3_No.Checked)
+            {
+                option3_yes.Checked = false;
+            }
+            else
+            {
+                option3_yes.Checked = true;
+            }
+        }
+
+        private void opt_exposure_yes_CheckedChanged(object sender, EventArgs e)
+        {
+            if (opt_exposure_yes.Checked)
+            {
+                opt_exposure_No.Checked = false;
+            }
+            else
+            {
+                opt_exposure_No.Checked = true;
+            }
+        }
+
+        private void opt_exposure_No_CheckedChanged(object sender, EventArgs e)
+        {
+            if (opt_exposure_No.Checked)
+            {
+                opt_exposure_yes.Checked = false;
+            }
+            else
+            {
+                opt_exposure_yes.Checked = true;
+            }
+        }
+
+        private void option4_yes_CheckedChanged(object sender, EventArgs e)
+        {
+            if (option4_yes.Checked)
+            {
+                option4_No.Checked = false;
+            }
+            else
+            {
+                option4_No.Checked = true;
+            }
+        }
+
+        private void option4_No_CheckedChanged(object sender, EventArgs e)
+        {
+            if (option4_No.Checked)
+            {
+                option4_yes.Checked = false;
+            }
+            else
+            {
+                option4_yes.Checked = true;
+            }
+        }
+
 
         //public class CustomImageHTMLTagProcessor : IHTMLTagProcessor
         //{

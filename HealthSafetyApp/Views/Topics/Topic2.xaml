@@ -67,8 +67,8 @@
                     <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
                         <Label Text="Is it possible to avoid the need to use hazardous substances?"/>
                         <!--<chkbx:CheckBox DefaultText="Yes" x:Name="option1_yes" TextColor="Green"/>-->
-                        <chkbx:CheckText DefaultText="Yes" x:Name="option1_yes" Color="Green" TextColor="Green" Visual="Material"/>
-                        <chkbx:CheckText x:Name="option1_No" DefaultText="No" TextColor="Red" Color="Red" Visual="Material"/>
+                        <chkbx:CheckText DefaultText="Yes" x:Name="option1_yes" Color="Green" TextColor="Green"  Visual="Material" CheckedChanged="option1_yes_CheckedChanged"/>
+                        <chkbx:CheckText x:Name="option1_No" DefaultText="No" TextColor="Red" Color="Red" Visual="Material" CheckedChanged="option1_No_CheckedChanged"/>
                         
                     </StackLayout>
 
@@ -357,8 +357,8 @@
 
                         <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke">
                             <Label Text="Is it possible to use a less harmful substance to do the work?"/>
-                            <chkbx:CheckText DefaultText="Yes" x:Name="option3_yes" TextColor="Green" Visual="Material" Color="Green"/>
-                            <chkbx:CheckText x:Name="option3_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText DefaultText="Yes" x:Name="option3_yes" TextColor="Green" Visual="Material" Color="Green"  CheckedChanged="option3_yes_CheckedChanged"/>
+                            <chkbx:CheckText x:Name="option3_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red" CheckedChanged="option3_No_CheckedChanged"/>
                         </StackLayout>
 
 
@@ -419,8 +419,8 @@
                         <Label FontSize="Small" FontAttributes="Italic" Text="(Remember health surveillance may be required for vulnerable persons eg pregnant/young workers those with asthma, dermatitis etc?)"/>
                     
                     <StackLayout Margin="0,0,0,5"  Orientation="Horizontal" BackgroundColor="WhiteSmoke">
-                            <chkbx:CheckText DefaultText="Yes" x:Name="option4_yes" TextColor="Green" Visual="Material" Color="Green"/>
-                            <chkbx:CheckText x:Name="option4_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red"/>
+                            <chkbx:CheckText DefaultText="Yes" x:Name="option4_yes" TextColor="Green" Visual="Material"  Color="Green" CheckedChanged="option4_yes_CheckedChanged"/>
+                            <chkbx:CheckText x:Name="option4_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red" CheckedChanged="option4_No_CheckedChanged"/>
                         </StackLayout>
                     </StackLayout>
                     <BoxView HeightRequest="50"/>
@@ -597,8 +597,8 @@
 
                     <StackLayout Orientation="Horizontal" BackgroundColor="LightGray">
                         <Label Text="Is exposure adequately controlled?"/>
-                        <chkbx:CheckText DefaultText="Yes" x:Name="opt_exposure_yes" TextColor="Green" Visual="Material" Color="Green"/>
-                        <chkbx:CheckText x:Name="opt_exposure_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red"/>
+                        <chkbx:CheckText DefaultText="Yes" x:Name="opt_exposure_yes" TextColor="Green" Visual="Material"  Color="Green" CheckedChanged="opt_exposure_yes_CheckedChanged"/>
+                        <chkbx:CheckText x:Name="opt_exposure_No" DefaultText="No" TextColor="Red" Visual="Material" Color="Red" CheckedChanged="opt_exposure_No_CheckedChanged"/>
                     </StackLayout>
 
                 </StackLayout>

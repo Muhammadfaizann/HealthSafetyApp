@@ -30,3 +30,4 @@ C:\Users\user\Source\Repos\HealthSafetyApp\HealthSafetyApp\obj\Debug\netstandard
 C:\Users\user\Source\Repos\HealthSafetyApp\HealthSafetyApp\obj\Debug\netstandard2.0\HealthSafetyApp.dll
 C:\Users\user\Source\Repos\HealthSafetyApp\HealthSafetyApp\obj\Debug\netstandard2.0\ref\HealthSafetyApp.dll
 C:\Users\user\Source\Repos\HealthSafetyApp\HealthSafetyApp\obj\Debug\netstandard2.0\HealthSafetyApp.pdb
+C:\Users\user\source\repos\HealthSafetyApp\HealthSafetyApp\obj\Debug\netstandard2.0\Controls\BorderlessEntry.xaml.g.cs

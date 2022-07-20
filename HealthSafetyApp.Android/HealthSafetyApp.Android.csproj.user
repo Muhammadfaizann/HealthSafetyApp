@@ -5,5 +5,6 @@
     <ActiveDebugProfile>tablet_m-dpi_7in_pie_9_0_-_api_28</ActiveDebugProfile>
     <DefaultDevice>tablet_m-dpi_7in_pie_9_0_-_api_28</DefaultDevice>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

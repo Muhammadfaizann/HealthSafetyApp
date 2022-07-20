@@ -20,13 +20,13 @@ namespace HealthSafetyApp.Controls {
         private global::Xamarin.Forms.Frame frame;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry txt;
+        private global::HealthSafetyApp.Controls.BorderlessEntry txt;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RoundedEntry));
             frame = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Frame>(this, "frame");
-            txt = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txt");
+            txt = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::HealthSafetyApp.Controls.BorderlessEntry>(this, "txt");
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj": {}
+    "C:\\Users\\user\\source\\repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj": {
+    "C:\\Users\\user\\source\\repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj",
         "projectName": "HealthSafetyApp",
-        "projectPath": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\HealthSafetyApp\\HealthSafetyApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,7 +63,7 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.7.3, )"
             },
             "Xamarin.FFImageLoading.Svg.Forms": {
               "target": "Package",
@@ -71,11 +71,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2012, )"
+              "version": "[5.0.0.2478, )"
             },
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
-              "version": "[4.7.0.1260, )"
+              "version": "[5.0.0.2478, )"
             }
           },
           "imports": [

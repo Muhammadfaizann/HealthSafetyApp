@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZXJtuRk5hU2rU3NMJSWxWDP8qym/D2PU5fOBX9gI7/pe7946hm04r+ha5stiI4Tgr9aHYg5sujrkj9JjCAofg==",
+  "dgSpecHash": "ayfX0MZWiCFiZ9wK5MeQmHfS5mW5CEK5eb310bu9WbmoNZPe0S9PmFAcUyknCyWBbZSvfknOvBpueS0Ta0bqcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\HealthSafetyApp\\HealthSafetyApp\\HealthSafetyApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\acr.userdialogs\\7.2.0.564\\acr.userdialogs.7.2.0.564.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\firebasedatabase.net\\4.0.7\\firebasedatabase.net.4.0.7.nupkg.sha512",
@@ -22,13 +22,13 @@
     "C:\\Users\\user\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\xamarin.forms.visual.material\\4.7.0.1260\\xamarin.forms.visual.material.4.7.0.1260.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.forms\\5.0.0.2478\\xamarin.forms.5.0.0.2478.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2478\\xamarin.forms.visual.material.5.0.0.2478.nupkg.sha512"
   ],
   "logs": []
 }
